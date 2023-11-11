@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
         priority = 1000,
         opts = {},
     }
-    use('qilliamboman/mason.nvim')
+    use('williamboman/mason.nvim')
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('theprimeagen/harpoon')
     use("theprimeagen/refactoring.nvim")
